@@ -48,7 +48,7 @@ Time Time::operator*(double mult) const{
     result.minutes=totalminutes%60;
     return result;
 }
-std:: ostream & operator << (std::ostream &os,const Time &t)
+std:: ostream & operator << (std::ostream & os,const Time & t)
 {
     os<<t.hours<<" hours"<<t.minutes<<" minutes\n";
     return os;
